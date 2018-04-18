@@ -10,6 +10,7 @@ from scrapy.settings import BaseSettings
 from scrapy.utils.project import get_project_settings
 
 from commonSpiders.spiders_test.TestSpider import TestSpider
+from commonSpiders.starter.custom_crawlerprocess import CustomCrawlerProcess
 from commonSpiders.utils.singleton import singleton
 
 
@@ -18,17 +19,17 @@ class CrawlerLoader(object):
 
     def __init__(self):
         self.settings = get_project_settings()
-        self.process = CrawlerProcess(self.settings)
+        self.process = CustomCrawlerProcess(self.settings)
+        self.process.config_spider_class("TestSpider", TestSpider)
         print '初始化爬虫进程'
 
-    def start_craw(self):
+    def start_craw(self, spider_key="", **settings):
 
         print '启动爬虫进程'
-        spider = TestSpider
-        self.settings.set('DOWNLOADER_MIDDLEWARES', BaseSettings({
-            'commonSpiders.downloader_middlewares.middlewares.Test1Middleware': 550
-        }, 'default'), 'default')
-        self.process.crawl(spider)
-        self.process.start()
+        if spider_key:
+            self.process.add_crawler_by_spider_key(spider_key, settings)
+            self.process.start(True)
+        else:
+            self.process.start(False)
 
 

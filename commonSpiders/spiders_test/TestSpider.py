@@ -10,6 +10,9 @@ import time
 
 from scrapy import Spider, Request
 
+from commonSpiders.spiders_test.entity import DataItem
+
+
 class TestSpider(Spider):
     '''
     测试爬虫
@@ -18,16 +21,14 @@ class TestSpider(Spider):
     key = 1
 
     def __init__(self):
+        print('初始化一个爬虫')
         pass
 
     def start_requests(self):
+        print('开始运行')
         return [Request('http://www.baidu.com', callback=self.parse)]
 
     def parse(self, response):
-        while True:
-            time.sleep(5)
-            yield Request('http://www.baidu.com/?a=%s' % datetime.datetime.now(), callback=self.finish)
+        print('解析数据')
+        # yield Request('http://localhost:9000/system/view/user_manage/?a=%s' % datetime.datetime.now())
 
-    def finish(self, response):
-        # print self
-        print 1
