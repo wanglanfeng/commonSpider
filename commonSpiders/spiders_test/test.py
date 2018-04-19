@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
  @Time    : 2018/4/17 20:48
- @File    : test.py
+ @File    : page.py
  @desc    :
 '''
 from commonSpiders.cookies.models import Cookie

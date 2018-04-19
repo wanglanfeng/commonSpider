@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html  lang="zh-CN" class="ie8 no-js">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    {% block meta %}{% endblock %}
+    <title>{% block title %}{% endblock %}</title>
+    {% include 'layout/link.html' %}
+    {% block link %}{% endblock %}
+    {% block style %}{% endblock %}
+</head>
+<body>
+    {% include 'layout/header.html' %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+    {% include 'layout/footer.html' %}
+</body>
+{% include 'layout/script.html' %}
+{% block script %}{% endblock %}
+</html>

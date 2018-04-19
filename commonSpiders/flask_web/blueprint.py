@@ -5,7 +5,8 @@
  @File    : blueprint.py
  @desc    :
 '''
-from app import app
-from commonSpiders.flask_web.apps.test import index
+from commonSpiders.flask_web.apps.page import page
 
-app.register_blueprint(index, url_prefix='/test')
+
+def register_blueprint(app):
+    app.register_blueprint(page, url_prefix='/page')
