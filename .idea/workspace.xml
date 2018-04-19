@@ -2,108 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608ad018-f05e-409b-a801-0007cfcecb14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/apps/page/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/apps/socketio/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/css/quick_layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/js/socket_connection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap-table-module/bt-table-module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrapTable/bootstrap-table-locale-all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrapTable/bootstrap-table-locale-all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrapTable/bootstrap-table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrapTable/bootstrap-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrapTable/bootstrap-table.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrapTable/bootstrap-table.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrapTable/locale/bootstrap-table-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/bootstrapTable/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/jquery-confirm/jquery-confirm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/jquery-confirm/jquery-confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/jquery-confirm/jquery-confirm.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/jquery-confirm/jquery-confirm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/jquery/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/toastr/toastr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/toastr/toastr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/toastr/toastr.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/toastr/toastr.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/plugins/toastr/toastr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/layout/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/layout/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/layout/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/layout/link.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/layout/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/layout/script.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/socketio_views/crawler_settings_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/socketio_views/crawlers_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/socketio_views/downloadmiddleware_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/socketio_views/socketio_base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/socketio_views/spider_class_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/socketio_views/spidermiddleware_manager.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/templates/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commonSpiders.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/flask_web/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/flask_web/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/flask_web/apps/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/flask_web/apps/page/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/flask_web/blueprint.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/flask_web/blueprint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/spiders_test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/spiders_test/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonSpiders/flask_web/static/js/socketio.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -124,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom_crawlerprocess.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonSpiders/starter/custom_crawlerprocess.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commonSpiders/flask_web/templates/layout/header.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -174,13 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commonSpiders/flask_web/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="68" column="30" lean-forward="true" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+            <state relative-caret-position="339">
+              <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
               <folding>
                 <element signature="e#114#130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socketio.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commonSpiders/flask_web/static/js/socketio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -238,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/commonSpiders/utils/decorator.py" />
         <option value="$PROJECT_DIR$/commonSpiders/utils/singleton.py" />
         <option value="$PROJECT_DIR$/commonSpiders/starter/CustomCrawlerProcess.py" />
         <option value="$PROJECT_DIR$/commonSpiders/starter/custom_craw.py" />
@@ -289,6 +190,7 @@
         <option value="$PROJECT_DIR$/commonSpiders/flask_web/static/js/socket_connection.js" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/commonSpiders/flask_web/app.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/flask_web/static/js/socketio.js" />
       </list>
     </option>
   </component>
@@ -626,13 +528,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/commonSpiders/spiders_test/entity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/scrapy/http/request/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -976,10 +871,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/commonSpiders/flask_web/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="68" column="30" lean-forward="true" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        <state relative-caret-position="339">
+          <caret line="65" column="22" lean-forward="true" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
           <folding>
             <element signature="e#114#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/flask_web/static/js/socketio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
