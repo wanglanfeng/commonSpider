@@ -1,0 +1,13 @@
+{% extends 'layout/base.html' %}
+{% block body %}
+    <div class="mask">
+        <div id="loader"></div>
+    </div>
+    <div id="wrap">
+        <div class="row">
+            {% include 'layout/nav/nav.html' %}
+            {% include 'layout/content/content.html' %}
+        </div>
+    </div>
+    {% include 'layout/footer.html' %}
+{% endblock %}

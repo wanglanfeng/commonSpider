@@ -9,7 +9,7 @@ from tokenize import String
 
 from sqlalchemy import Column, Integer, Boolean, DateTime
 
-from commonSpiders.mysql.models import Base
+from commonSpiders.storage.mysql.models import Base
 
 
 class HttpProxy(Base):

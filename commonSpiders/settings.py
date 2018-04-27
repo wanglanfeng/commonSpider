@@ -11,7 +11,7 @@
 
 BOT_NAME = 'commonSpiders'
 
-SPIDER_MODULES = ['commonSpiders.spiders', 'commonSpiders.spiders_test']
+SPIDER_MODULES = ['commonSpiders.creeper.spiders', 'commonSpiders.spiders_test']
 NEWSPIDER_MODULE = 'commonSpiders.spiders'
 
 
@@ -52,9 +52,9 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'commonSpiders.middlewares.CommonspidersDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+   'commonSpiders.middlewares.CommonspidersDownloaderMiddleware': 543,
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
