@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="608ad018-f05e-409b-a801-0007cfcecb14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/creeper/parses/rule_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/client/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/client/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/server/flask/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/server/flask/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/server/flask/app/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/server/flask/flask_context_extend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/server/flask/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/configserver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/nameserver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/netserver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/stateserver/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/storage/kafka/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/test/socket_server_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commonSpiders.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commonSpiders.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/items/item_meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/items/item_meta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/loader/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/loader/loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/parses/item_meta_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/parses/item_meta_parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/parses/item_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/parses/item_parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/spiders/commcon_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/spiders/commcon_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="608ad018-f05e-409b-a801-0007cfcecb14" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,37 +205,6 @@
               <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -467,7 +407,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286517" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -475,8 +414,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47257385" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36708862" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49370277" visible="true" weight="0.22654155" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.36708862" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49370277" visible="true" weight="0.22654155" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
