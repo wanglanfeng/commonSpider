@@ -3,5 +3,7 @@ redis==2.10.6
 SQLAlchemy==1.2.6
 uuid
 flask-socketio
-
+flask-mongoengine
+Flask-PyMongo
+socketio-client
 
