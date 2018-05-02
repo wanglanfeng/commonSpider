@@ -1,57 +1,63 @@
 #!/user/bin/env python
 # -*- coding: utf-8 -*-
 '''
- @Time    : 2018/5/1 21:58
+ @Time    : 2018/5/2 22:06
  @File    : server.py
  @desc    :
 '''
-import threading
+from flask import Flask
+from flask_socketio import SocketIO
 
-from commonSpiders.net.server.flask.app.app import App
-from commonSpiders.net.server.flask.flask_context_extend import FlaskContextExtend
-
-
-def context_list_init(context_init_list):
-    '''
-    初始化app扩展上下文
-    :param context_init_list:
-    :return:
-    '''
-    if not context_init_list or not isinstance(context_init_list, list):
-        print('初始化app扩展上下文失败')
-        return
-    for context in context_init_list:
-        # 异步
-        if context.async:
-            threading.Thread(target=context.start)
-        # 同步
-        else:
-            context.start()
+from commonSpiders.net.app import BaseApp
 
 
-def run_server(app, context_extend_list=[]):
-    '''
-    启动socket服务
-    :param socketio_app:
-    :param context_extend_list:
-    :return:
-    '''
-    if not isinstance(app, App):
-        raise Exception('启动socket服务发生错误，app参数应该为App对象')
-    server = app
-    # 在app初始化之前需要进行初始化的对象
-    context_init_before_list = []
-    # 在app初始化之后需要进行初始化的对象
-    context_init_after_list = []
-    for context in context_extend_list:
-        if isinstance(context, FlaskContextExtend):
-            server.set_context(context.key, context.obj)
-            if context.priority >= server.DEFAULT_PRIORITY:
-                context_init_before_list.append(context)
-            else:
-                context_init_after_list.append(context)
-    context_init_before_list = sorted(context_init_before_list, cmp=lambda context: context.priority)
-    context_init_after_list = sorted(context_init_after_list, cmp=lambda context: context.priority)
-    context_list_init(context_init_before_list)
-    server.start()
-    context_list_init(context_init_after_list)
+class App(BaseApp):
+
+    app = Flask(__name__)
+
+    def __init__(self, settings=''):
+        super(App, self).__init__(settings)
+        self._init_app()
+
+    def _init_app(self):
+        '''
+        初始化app需要的数据
+        :return:
+        '''
+        port = self.settings.get('SERVER_PORT', None)
+        self.port = port or self.port
+
+    def set_context(self, key, context):
+        '''
+        直接将app需要用到的信息加载到app对象上
+        :param key:
+        :param context:
+        :return:
+        '''
+        if key is not None and context is not None:
+            self.app.__setattr__(key, context)
+
+    def run(self):
+        print('启动app')
+
+
+class FlaskApp(App):
+
+    def __init__(self, settings=''):
+        super(FlaskApp, self).__init__(settings)
+
+    def run(self):
+        print('启动flask app')
+        self.app.run(host=self.DEFAULT_IP, port=self.port)
+
+
+class SocketIoApp(App):
+
+    def __init__(self, settings=''):
+        super(SocketIoApp, self).__init__(settings)
+        self.socketio = SocketIO()
+
+    def run(self):
+        print('启动socketio app')
+        self.socketio.init_app(self.app)
+        self.socketio.run(self.app, host=self.DEFAULT_IP, port=self.port)
