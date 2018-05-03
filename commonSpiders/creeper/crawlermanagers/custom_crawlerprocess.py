@@ -12,7 +12,7 @@ from scrapy.settings import BaseSettings
 from scrapy.utils.project import get_project_settings
 from twisted.internet import defer
 
-from commonSpiders.creeper.crawlers.crawlerjobinfo_manager import CrawlerJobInfoManager
+from commonSpiders.scrapy_clusters_manager.crawler_info_manager.crawlerjobinfo_manager import CrawlerJobInfoManager
 from commonSpiders.creeper.crawlers.crawlers import CustomeCrawler
 from commonSpiders.creeper.utils.utils import guid_generate
 

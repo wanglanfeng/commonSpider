@@ -13,8 +13,11 @@ class RedisClient(object):
 
     # __metaclass__ = Singleton
 
-    def __init__(self):
+    def __init__(self, host='127.0.0.1', port=6379, pwd=''):
         self.redis_clients = {}
+        self.host = host
+        self.port = port
+        self.pwd = pwd
 
     def get_redis(self, db, pool_use=True):
         '''
@@ -24,13 +27,17 @@ class RedisClient(object):
         :return:
         '''
         config = get_redis_config(db)
-        r = None
-        if pool_use:
-            pool = redis.ConnectionPool(host=config['host'], port=config['port'], db=db, password=db['pwd'])
-            r = redis.Redis(connection_pool=pool)
-        else:
-            r = redis.StrictRedis(host=config['host'], port=config['port'], db=db, password=db['pwd'])
+        host = self.host or config['host']
+        port = self.port or config['port']
+        password = self.pwd or db['pwd']
+        r = self.redis_clients.get(db, None)
+        if not r:
+            if pool_use:
+                pool = redis.ConnectionPool(host=host, port=port, db=db, password=password)
+                r = redis.Redis(connection_pool=pool)
+            else:
+                r = redis.StrictRedis(host=host, port=port, db=db, password=password)
 
-        self.redis_clients.setdefault(db, r)
+            self.redis_clients.setdefault(db, r)
         return r
 

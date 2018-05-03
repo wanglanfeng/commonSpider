@@ -6,7 +6,7 @@
  @desc    :
 '''
 from flask import Flask
-from flask_socketio import SocketIO
+from flask_socketio import SocketIO, Namespace
 
 from commonSpiders.net.app import BaseApp
 
@@ -24,8 +24,8 @@ class App(BaseApp):
         初始化app需要的数据
         :return:
         '''
-        port = self.settings.get('SERVER_PORT', None)
-        self.port = port or self.port
+        self.ip = self.settings.get('ip', None) or self.DEFAULT_IP
+        self.port = self.settings.get('port', None) or self.DEFAULT_PORT
 
     def set_context(self, key, context):
         '''

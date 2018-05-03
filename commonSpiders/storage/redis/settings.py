@@ -10,6 +10,7 @@ host = 'localhost'
 port = '6379'
 pwd = None
 
+
 def get_db_config(host, port, db, pwd):
     return {
         'host': host,
@@ -18,9 +19,11 @@ def get_db_config(host, port, db, pwd):
         'pwd': pwd
     }
 
+
 redis_db = {
     'redis_0': get_db_config(host, port, 0, pwd)
 }
 
+
 def get_redis_config(db):
-    return redis_db['redis' % db]
+    return redis_db['redis_%s' % db]

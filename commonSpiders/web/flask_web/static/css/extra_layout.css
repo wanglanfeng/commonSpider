@@ -1,6 +1,0 @@
-.bg-girl1 {
-    background-image: url(../images/noise.png), url(/static/image/background/qipao.jpg);
-    background-repeat: repeat, no-repeat;
-    background-position: left top;
-    background-size: auto, cover;
-}

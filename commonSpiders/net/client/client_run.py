@@ -15,3 +15,5 @@ class ClientRun(Run):
         if not isinstance(app, Client):
             raise Exception("服务端app必须继承Client类")
         super(ClientRun, self).__init__(app, contexts)
+        for context in self.context_dict['all']:
+            self.app.set_context(context.key, context.obj)

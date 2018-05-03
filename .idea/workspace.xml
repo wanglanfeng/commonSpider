@@ -2,21 +2,584 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608ad018-f05e-409b-a801-0007cfcecb14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_namespace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/client/client_run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/extend_context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/net/server/flask/server_run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/commonSpiders/test/socketio_client_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_server_namespace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/context_extend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawler_job.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/crawler_info_manager/crawler_job.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawlerjobinfo_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/crawler_info_manager/crawlerjobinfo_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/net/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_namespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_client_namespace.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commonSpiders/net/client/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/net/client/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/net/server/flask/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/net/server/flask/app/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/net/server/flask/flask_context_extend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/net/client/client_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/net/client/client_run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/net/extend_context.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/net/extend_context.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commonSpiders/net/server/flask/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/net/server/flask/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/test/socket_server_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/test/socket_server_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/storage/redis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/storage/redis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/storage/redis/redis_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/storage/redis/redis_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/storage/redis/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/storage/redis/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/test/TestSpider.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/test/socket_server_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/test/socketio_client_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/test/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/doc/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/apps/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/doc/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/apps/page/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/apps/page/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/apps/socketio/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/apps/socketio/namespace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/blueprint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/crawler_info_manager/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/models/spider_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/socketio_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/css/extra_layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/css/quick_layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/image/background/qipao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/image/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/js/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/js/socket_connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/js/socketio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/vendor/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/vendor/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/vendor/bootstrap-checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/vendor/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/vendor/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/vendor/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/vendor/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/css/vendor/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/arnold-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/thumbs/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/thumbs/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/thumbs/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/thumbs/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/thumbs/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/backgrounds/thumbs/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/carousel/carousel1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/carousel/carousel2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/carousel/carousel3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/carousel/carousel4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/chosen-sprite-transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/dot_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/george-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/ici-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/logo-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/minimal-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/modal-close-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/modal-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/peter-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/profile-photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/random-avatar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/random-avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/random-avatar4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/random-avatar5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/random-avatar6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/random-avatar7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/images/random-avatar8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/assets/images/video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/minimal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/animate-numbers/jquery.animateNumbers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/blockui/jquery.blockUI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/chosen/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/chosen/css/chosen-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/chosen/css/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/chosen/images/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/chosen/images/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorbox/css/colorbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorbox/css/images/controls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorbox/css/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorbox/css/images/loading_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorbox/jquery.colorbox-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorpalette/bootstrap-colorpalette.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorpalette/bootstrap-colorpalette.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/colorpicker/css/bootstrap-colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/ColReorderWithResize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/colvis/dataTables.colVis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/css/ColVis.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/css/TableTools.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/css/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/collection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/collection_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/copy_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/csv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/csv_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/datatables/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/datatables/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/datatables/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/datatables/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/datatables/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/pdf_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/print_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/xls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/images/xls_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/swf/copy_csv_xls_pdf.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/tabletools/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/tabletools/dataTables.tableTools.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datatables/tabletools/swf/copy_csv_xls_pdf.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datepicker/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/datepicker/css/bootstrap-datetimepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/easypiechart/jquery.easypiechart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.animator.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.categories.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.orderBars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.selection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.stack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.time.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/flot/jquery.flot.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/font-awesome-4.7.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/fullcalendar/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/fullcalendar/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/fullcalendar/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/gmaps/jquery.ui.map.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/gmaps/jquery.ui.map.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/gmaps/jquery.ui.map.microformat.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/gmaps/markerclusterer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/graphtable/jquery.graphTable-0.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jgrowl/css/jquery.jgrowl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jgrowl/jquery.jgrowl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/css/jquery.fileupload-noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/css/jquery.fileupload-ui-noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/css/jquery.fileupload-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/css/jquery.fileupload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/fileupload-main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/img/progressbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/jquery.fileupload-audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/jquery.fileupload-image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/jquery.fileupload-process.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/jquery.fileupload-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/jquery.fileupload-validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/jquery.fileupload-video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/jquery.fileupload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/jquery.iframe-transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jquery-file-upload/vendor/jquery.ui.widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/justgage/justgage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/addons/gdp-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-de-merc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-es-merc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-fr-merc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-us-aea-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-us-lcc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/addons/mall-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/css/jquery-jvectormap-1.2.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/jvectormaps/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/mmenu/css/jquery.mmenu.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/mmenu/js/jquery.mmenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/momentjs/moment-with-langs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/morris/css/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/morris/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/nicescroll/jquery.nicescroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/no-ui-slider/css/jquery.nouislider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/no-ui-slider/jquery.nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/owl-carousel/css/AjaxLoader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/owl-carousel/css/grabbing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/owl-carousel/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/owl-carousel/css/owl.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/owl-carousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/parsley/parsley.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/rickshaw/css/rickshaw.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/rickshaw/d3.v2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/rickshaw/raphael-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/rickshaw/rickshaw.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/skycons/skycons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/sparkline/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/summernote/css/summernote-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/summernote/css/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/summernote/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/summernote/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/summernote/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/summernote/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/summernote/summernote.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/superbox/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/superbox/img/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/superbox/superbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/tabdrop/bootstrap-tabdrop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/tabdrop/css/tabdrop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/typeahead/css/typeahead.js-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/typeahead/typeahead.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/videobackground/css/jquery.videobackground.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/videobackground/jquery.videobackground.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/minimal/assets/js/vendor/wizard/jquery.bootstrap.wizard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap-table-module/bt-table-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrap/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrapTable/bootstrap-table-locale-all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrapTable/bootstrap-table-locale-all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrapTable/bootstrap-table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrapTable/bootstrap-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrapTable/bootstrap-table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrapTable/bootstrap-table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrapTable/locale/bootstrap-table-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/bootstrapTable/locale/bootstrap-table-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/font-awesome-4.7.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/jquery-confirm/jquery-confirm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/jquery-confirm/jquery-confirm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/jquery-confirm/jquery-confirm.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/jquery-confirm/jquery-confirm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/toastr/toastr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/toastr/toastr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/toastr/toastr.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/toastr/toastr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/static/plugins/toastr/toastr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/cms_base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/content/content-right.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/content/content.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/nav/nav-quick-actions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/nav/nav-top-branding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/nav/nav-top-side.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/nav/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/page_base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/script.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/layout/socketio_base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/modules/common/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/modules/common/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/modules/crawler/crawler_settings.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/modules/crawler/crawlers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/modules/crawler/down_middleware.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/modules/crawler/spiders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/modules/crawler/spiders_middleware.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/#.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/minimal.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/vendor/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/vendor/animate/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/vendor/bootstrap-checkbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/vendor/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/vendor/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/vendor/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/vendor/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/css/vendor/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/arnold-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/thumbs/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/thumbs/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/thumbs/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/thumbs/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/thumbs/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/backgrounds/thumbs/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/bootstrap-colorpicker/alpha-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/bootstrap-colorpicker/alpha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/bootstrap-colorpicker/hue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/bootstrap-colorpicker/saturation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/carousel/carousel1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/carousel/carousel2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/carousel/carousel3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/carousel/carousel4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/chosen-sprite-transparent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/dot_pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/george-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/ici-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/logo-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/minimal-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/modal-close-hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/modal-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/peter-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/profile-photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/random-avatar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/random-avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/random-avatar4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/random-avatar5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/random-avatar6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/random-avatar7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/images/random-avatar8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/assets/images/video.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/minimal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/animate-numbers/jquery.animateNumbers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/blockui/jquery.blockUI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/bootstrap/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/chosen/chosen.jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/chosen/css/chosen-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/chosen/css/chosen.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/chosen/images/chosen-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/chosen/images/chosen-sprite@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorbox/css/colorbox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorbox/css/images/controls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorbox/css/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorbox/css/images/loading_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorbox/jquery.colorbox-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorpalette/bootstrap-colorpalette.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorpalette/bootstrap-colorpalette.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorpicker/bootstrap-colorpicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/colorpicker/css/bootstrap-colorpicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/ColReorderWithResize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/colvis/dataTables.colVis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/css/ColVis.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/css/TableTools.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/css/dataTables.bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/dataTables.bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/collection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/collection_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/copy_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/csv.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/csv_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/datatables/sort_asc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/datatables/sort_asc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/datatables/sort_both.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/datatables/sort_desc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/datatables/sort_desc_disabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/pdf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/pdf_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/print.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/print_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/xls.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/images/xls_hover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/jquery.dataTables.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/swf/copy_csv_xls_pdf.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/tabletools/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/tabletools/dataTables.tableTools.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datatables/tabletools/swf/copy_csv_xls_pdf.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datepicker/bootstrap-datetimepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/datepicker/css/bootstrap-datetimepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/easypiechart/jquery.easypiechart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.animator.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.categories.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.orderBars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.pie.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.selection.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.stack.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.time.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/flot/jquery.flot.tooltip.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/fullcalendar/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/fullcalendar/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/fullcalendar/jquery-ui-1.10.4.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/gmaps/jquery.ui.map.extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/gmaps/jquery.ui.map.full.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/gmaps/jquery.ui.map.microformat.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/gmaps/markerclusterer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/graphtable/jquery.graphTable-0.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jgrowl/css/jquery.jgrowl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jgrowl/jquery.jgrowl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/css/jquery.fileupload-noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/css/jquery.fileupload-ui-noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/css/jquery.fileupload-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/css/jquery.fileupload.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/fileupload-main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/img/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/img/progressbar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/jquery.fileupload-audio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/jquery.fileupload-image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/jquery.fileupload-process.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/jquery.fileupload-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/jquery.fileupload-validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/jquery.fileupload-video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/jquery.fileupload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/jquery.iframe-transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jquery-file-upload/vendor/jquery.ui.widget.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/justgage/justgage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/addons/gdp-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-de-merc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-es-merc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-fr-merc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-us-aea-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-us-lcc-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/addons/jquery-jvectormap-world-mill-en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/addons/mall-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/css/jquery-jvectormap-1.2.2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/jvectormaps/jquery-jvectormap-1.2.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/mmenu/css/jquery.mmenu.all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/mmenu/js/jquery.mmenu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/momentjs/moment-with-langs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/morris/css/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/morris/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/nicescroll/jquery.nicescroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/no-ui-slider/css/jquery.nouislider.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/no-ui-slider/jquery.nouislider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/owl-carousel/css/AjaxLoader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/owl-carousel/css/grabbing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/owl-carousel/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/owl-carousel/css/owl.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/owl-carousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/parsley/parsley.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/rickshaw/css/rickshaw.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/rickshaw/d3.v2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/rickshaw/raphael-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/rickshaw/rickshaw.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/skycons/skycons.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/sparkline/jquery.sparkline.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/summernote/css/summernote-bs3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/summernote/css/summernote.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/summernote/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/summernote/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/summernote/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/summernote/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/summernote/summernote.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/superbox/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/superbox/img/close.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/superbox/superbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/tabdrop/bootstrap-tabdrop.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/tabdrop/css/tabdrop.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/typeahead/css/typeahead.js-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/typeahead/typeahead.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/videobackground/css/jquery.videobackground.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/videobackground/jquery.videobackground.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/assets/js/vendor/wizard/jquery.bootstrap.wizard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/buttons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/calendar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/datatables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/dgfp_39_hz.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/form-elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/form-wizard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/google-maps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/mail-horizontal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/page-offline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/page404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/page500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/tables.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/tiles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/timeline.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/ui-elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/validation-elements.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/vector-maps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/widgets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/找网站模板就上【模板之家】cssMoban.com.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/template-examples/dgfp_39_hz/说明.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/web/flask_web/templates/test.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,78 +591,128 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/commonSpiders$run.coverage" NAME="run Coverage Results" MODIFIED="1525272636758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/net" />
     <SUITE FILE_PATH="coverage/commonSpiders$socketio_server.coverage" NAME="socketio_server Coverage Results" MODIFIED="1524295511887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/flask_web" />
-    <SUITE FILE_PATH="coverage/commonSpiders$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1524390749481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/flask_web" />
+    <SUITE FILE_PATH="coverage/commonSpiders$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1525356979172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net" />
     <SUITE FILE_PATH="coverage/commonSpiders$TestSpider.coverage" NAME="TestSpider Coverage Results" MODIFIED="1523792573427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/spiders_test" />
     <SUITE FILE_PATH="coverage/commonSpiders$items.coverage" NAME="items Coverage Results" MODIFIED="1524752983678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/starter" />
     <SUITE FILE_PATH="coverage/commonSpiders$main.coverage" NAME="main Coverage Results" MODIFIED="1525101278914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/test" />
     <SUITE FILE_PATH="coverage/commonSpiders$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1524836744734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/utils" />
-    <SUITE FILE_PATH="coverage/commonSpiders$socketio_client_test.coverage" NAME="socketio_client_test Coverage Results" MODIFIED="1525273122648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/test" />
+    <SUITE FILE_PATH="coverage/commonSpiders$socketio_client_test.coverage" NAME="socketio_client_test Coverage Results" MODIFIED="1525347846276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/test" />
+    <SUITE FILE_PATH="coverage/commonSpiders$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1525356976653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/creeper/net" />
     <SUITE FILE_PATH="coverage/commonSpiders$loader.coverage" NAME="loader Coverage Results" MODIFIED="1523794539038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/starter" />
     <SUITE FILE_PATH="coverage/commonSpiders$app.coverage" NAME="app Coverage Results" MODIFIED="1524140605063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/flask_web" />
     <SUITE FILE_PATH="coverage/commonSpiders$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1524837713245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/spiders_test" />
     <SUITE FILE_PATH="coverage/commonSpiders$test.coverage" NAME="test Coverage Results" MODIFIED="1524063892050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/spiders_test" />
-    <SUITE FILE_PATH="coverage/commonSpiders$socket_server_test.coverage" NAME="socket_server_test Coverage Results" MODIFIED="1525273083433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/test" />
+    <SUITE FILE_PATH="coverage/commonSpiders$socket_server_test.coverage" NAME="socket_server_test Coverage Results" MODIFIED="1525347744922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/test" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="socket_server_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonSpiders/test/socket_server_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="e#128#157#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="e#113#163#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="context_extend.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socketio_namespace.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/socketio_namespace.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#128#139#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="socketio_client_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonSpiders/test/socketio_client_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="46" selection-start-line="46" selection-end-line="59" selection-end-column="36" />
-              <folding>
-                <element signature="e#130#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.8017778">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/run.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#113#190#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="socketio_server_namespace.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+                  <folding>
+                    <element signature="e#135#164#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="run.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/run.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="304">
+                  <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+                  <folding>
+                    <element signature="e#113#174#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="redis_client.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/storage/redis/redis_client.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="376">
+                  <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#24#36#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="context_extend.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/context_extend.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="10" column="24" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="extend_context.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/net/extend_context.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/storage/__init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="76">
+                  <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/__init__.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/storage/redis/__init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="133">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="crawler_job.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/crawler_info_manager/crawler_job.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="62">
+                  <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,22 +751,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/commonSpiders/spiders_test/main.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/utils/__init__.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/middlewares/spider_middlewares.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/middlewares/down_middlewares.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/middlewares/middleware_example.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/storage/redis/redis_client.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/web/flask_web/socketio_server.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/web/flask_web/run.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/web/flask_web/blueprint.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/web/flask_web/app.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/web/flask_web/apps/page/views.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/test/test.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/headers/header/models.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/headers/user_agents/models.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/headers/cookies/models.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/ip_proxies/models.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawler_job.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawlerjobinfo_manager.py" />
         <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/nameserver/__init__.py" />
@@ -177,18 +774,34 @@
         <option value="$PROJECT_DIR$/commonSpiders/net/server/flask/flask_context_extend.py" />
         <option value="$PROJECT_DIR$/commonSpiders/net/server/flask/app/app.py" />
         <option value="$PROJECT_DIR$/commonSpiders/net/client/client_app.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/net/app.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/net/client/client_run.py" />
         <option value="$PROJECT_DIR$/commonSpiders/net/server/flask/server_run.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/net/server/flask/server.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/net/client/client.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/net/extend_context.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/test/socketio_client_test.py" />
         <option value="$PROJECT_DIR$/commonSpiders/net/run.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/test/socket_server_test.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/run.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_namespace.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/net/client/client_run.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/test/socket_server_test.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/test/socketio_client_test.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/test.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/creeper/test.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/creeper/settings.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/settings.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/net/app.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/net/client/client.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/run.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_server_namespace.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/net/server/flask/server.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_client_namespace.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/net/extend_context.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/storage/redis/RedisContextExtend.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/storage/redis/settings.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/settings.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/doc/models.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/storage/redis/redis_context_extend" />
+        <option value="$PROJECT_DIR$/commonSpiders/storage/redis/__init__.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/context_extend.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/run.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/storage/redis/redis_client.py" />
       </list>
     </option>
   </component>
@@ -239,69 +852,53 @@
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
               <item name="creeper" type="462c0819:PsiDirectoryNode" />
+              <item name="crawlermanagers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="creeper" type="462c0819:PsiDirectoryNode" />
+              <item name="crawlers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
+              <item name="creeper" type="462c0819:PsiDirectoryNode" />
               <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_clusters_manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_web" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapy_clusters_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_web" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_web" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_web" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_web" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="socketio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="flask_web" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,18 +932,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\scrapy_clusters_manager\crawler_info_manager" />
+      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\scrapy_clusters_manager\net" />
+      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\creeper\net" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\net\server\flask\app" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\headers" />
-      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\test" />
-      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\storage" />
-      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\storage\redis" />
+      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\creeper\net" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\flask_web\static\image\background" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\flask_web\static\image" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\flask_web\templates\template-examples" />
-      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\flask_web\static\minimal\assets\js\vendor" />
-      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\flask_web\templates\base-layout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,8 +958,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.socketio_client_test">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.run (1)">
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="commonSpiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,18 +967,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/spiders_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\pythonWorkSpace\commonSpiders\commonSpiders\test\main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="commonSpiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,12 +986,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/creeper/net" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commonSpiders/test/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commonSpiders/creeper/net/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -458,19 +1055,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.socket_server_test" />
       <item itemvalue="Python.socketio_client_test" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python.run (1)" />
+      <item itemvalue="Python.run (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.run (2)" />
         <item itemvalue="Python.socketio_client_test" />
         <item itemvalue="Python.socket_server_test" />
         <item itemvalue="Python.run" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -513,49 +1110,59 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35302392" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32630098" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.36708862" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49370277" visible="true" weight="0.28753352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49370277" visible="true" weight="0.24597855" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.21983914" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3628692" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5063291" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49370277" visible="true" weight="0.24128686" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.21983914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286517" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32911393" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23628692" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.79310346" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -583,11 +1190,6 @@
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://D:/python/python2.7/Lib/threading.py</url>
           <line>753</line>
           <option name="timeStamp" value="115" />
@@ -600,129 +1202,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="120" />
+      <option name="time" value="140" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/netserver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/configserver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/stateserver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawler_job.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/scrapy/crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1672">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/items/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawlerjobinfo_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/test/TestSpider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/parses/rule_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="43" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/parses/item_meta_parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="49" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/items/item_meta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/parses/item_parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1459">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/app.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1378783016/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -744,77 +1228,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="59" selection-start-line="59" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketIO_client/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketIO_client/namespaces.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/test/test.py" />
     <entry file="file://$PROJECT_DIR$/commonSpiders/net/server/flask/flask_context_extend.py" />
     <entry file="file://$PROJECT_DIR$/commonSpiders/net/client/client_server.py" />
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="40" />
-          <folding>
-            <element signature="e#133#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/net/client/client_run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="14" column="39" lean-forward="true" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-          <folding>
-            <element signature="e#120#170#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/net/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="e#113#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commonSpiders/net/server/flask/app/app.py" />
-    <entry file="file://$PROJECT_DIR$/commonSpiders/net/server/flask/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#116#139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketio/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
@@ -822,77 +1239,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/flask_socketio/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="633" selection-start-line="633" selection-end-line="633" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/apps/page/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/socketio_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="33" column="15" lean-forward="true" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-          <folding>
-            <element signature="e#126#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/net/client/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#116#151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/net/extend_context.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/test/my_thread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#114#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/test/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/net/server/flask/server_run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#120#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/socketio_server.py" />
+    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/run.py" />
     <entry file="file://D:/python/python2.7/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -900,83 +1248,292 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/flask_socketio/namespace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/apps/socketio/namespace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#120#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/loader/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/test/socket_server_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#128#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="e#113#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/web/flask_web/apps/socketio/namespace.py" />
     <entry file="file://$PROJECT_DIR$/commonSpiders/net/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+        <state relative-caret-position="134">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="e#113#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/test/socketio_client_test.py">
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/loader/loader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="46" selection-start-line="46" selection-end-line="59" selection-end-column="36" />
+        <state relative-caret-position="266">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketIO_client/namespaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketio/namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/test/socketio_client_test.py" />
+    <entry file="file://$PROJECT_DIR$/commonSpiders/test/socket_server_test.py" />
+    <entry file="file://$PROJECT_DIR$/commonSpiders/test/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/net/client/client_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding>
-            <element signature="e#130#141#0" expanded="true" />
+            <element signature="e#120#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/socketio_namespace.py">
+    <entry file="file://$PROJECT_DIR$/commonSpiders/test/my_thread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="343">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/net/server/flask/server_run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <element signature="e#128#139#0" expanded="true" />
+            <element signature="e#120#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketIO_client/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="376" column="8" selection-start-line="376" selection-start-column="8" selection-end-line="376" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/net/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="e#113#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/net/client/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+          <folding>
+            <element signature="e#117#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/socketio_server_namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="e#135#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/flask_socketio/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="324" column="37" selection-start-line="324" selection-start-column="37" selection-end-line="324" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/flask_socketio/namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/net/server/flask/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="e#116#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/socketio_client_namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding>
+            <element signature="e#135#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawlers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/crawler_info_manager/crawlerjobinfo_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+          <folding>
+            <element signature="e#133#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/doc/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="88" column="16" lean-forward="true" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+          <folding>
+            <element signature="e#135#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#113#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/storage/redis/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/crawler_info_manager/crawler_job.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/storage/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/storage/redis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/storage/redis/redis_context_extend">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/net/extend_context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/context_extend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="e#113#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/storage/redis/redis_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
