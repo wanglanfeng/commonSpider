@@ -18,6 +18,7 @@ class App(BaseApp):
     def __init__(self, settings=''):
         super(App, self).__init__(settings)
         self._init_app()
+        self.app.app_context().push()
 
     def _init_app(self):
         '''

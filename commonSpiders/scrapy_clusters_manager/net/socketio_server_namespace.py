@@ -18,22 +18,7 @@ class ServerBaseNamespace(Namespace):
     def __init__(self, namespace=None):
         super(ServerBaseNamespace, self).__init__(namespace)
         self.extend_context = current_app
-
-
-class Heart(ServerBaseNamespace):
-
-    KEY = '/heart'
-
-    def on_connect(self):
-        print('客户端连接')
-
-    def on_ping(self, data):
-        print('服务端心跳ping')
-        self.emit('pong', {'aa': 1})
-
-    def on_pong(self, data):
-        print('服务端心跳响应')
-        self.emit('ping', {'aa': 1})
+        print(1)
 
 
 class CrawlerProcessNamespace(ServerBaseNamespace):
@@ -41,9 +26,18 @@ class CrawlerProcessNamespace(ServerBaseNamespace):
     用于与其他服务器上的爬虫管理通信
     '''
 
-    KEY = '/crawler'
+    KEY = '/crawler_process'
 
-    def on_register_crawlerprocess(self, data):
+    def on_connect(self):
+        print('服务端连接')
+
+    def on_reconnect(self):
+        pass
+
+    def on_disconnect(self):
+        self.emit('logout_success', {})
+
+    def on_register(self, data):
         '''
         注册爬虫管理器
         :param data:
@@ -52,7 +46,8 @@ class CrawlerProcessNamespace(ServerBaseNamespace):
         2 获取爬虫管理器状态
         3
         '''
-
+        print('注册')
+        self.emit('register_success', {'msg': 1})
 
     def on_logout(self, data):
         '''

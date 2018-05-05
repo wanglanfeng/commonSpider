@@ -5,11 +5,14 @@
  @File    : context_extend.py
  @desc    :
 '''
+from commonSpiders.cache.cache import RedisCache
 from commonSpiders.net.extend_context import ContextExtend
 
 
-class RedisContextExtend(ContextExtend):
+class RedisCacheContextExtend(ContextExtend):
 
-    def __init__(self, key, obj, priority='', async=True):
+    KEY = 'cache'
 
-        super(RedisContextExtend, self).__init__(key, obj, priority, async)
+    def __init__(self, priority=1, async=True):
+        redis = RedisCache()
+        super(RedisCacheContextExtend, self).__init__(self.KEY, redis, priority, async)

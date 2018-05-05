@@ -12,6 +12,7 @@ from scrapy.settings import BaseSettings
 from scrapy.utils.project import get_project_settings
 from twisted.internet import defer
 
+from commonSpiders.creeper.net.crawlerprocess_net import CrawlerProcessNetInter
 from commonSpiders.scrapy_clusters_manager.crawler_info_manager.crawlerjobinfo_manager import CrawlerJobInfoManager
 from commonSpiders.creeper.crawlers.crawlers import CustomeCrawler
 from commonSpiders.creeper.utils.utils import guid_generate
@@ -22,7 +23,7 @@ class CustomCrawlerProcess(CrawlerProcess):
     爬虫调度器进程
     '''
 
-    def __init__(self, settings=None, install_root_handler=True, spiders_list=[]):
+    def __init__(self, settings=None, install_root_handler=True, spiders_list=[], net=None):
         super(CustomCrawlerProcess, self).__init__(settings, install_root_handler)
         # 存储原始配置
         self.source_settings = {}
@@ -46,6 +47,11 @@ class CustomCrawlerProcess(CrawlerProcess):
 
         # 爬虫工作者状态管理器
         self.crawler_manager = CrawlerJobInfoManager()
+
+        # 增加爬虫网络通信对象
+        if net and not isinstance(net, CrawlerProcessNetInter):
+            raise Exception('网络通信接口类型不正确，请接入正确的网络通信接口')
+        self.net = net or CrawlerProcessNetInter()
 
     @property
     def guid(self):

@@ -9,16 +9,14 @@ from scrapy.utils.project import get_project_settings
 
 from commonSpiders.creeper.crawlermanagers.custom_crawlerprocess import CustomCrawlerProcess
 from commonSpiders.creeper.spiders.commcon_spider import BaseSpider
-from commonSpiders.test.TestSpider import TestSpider
 
 
 class CrawlerLoader(object):
 
-    def __init__(self):
+    def __init__(self, net=None):
         self.settings = get_project_settings()
-        self.process = CustomCrawlerProcess(self.settings)
+        self.process = CustomCrawlerProcess(self.settings, net=net)
         self.process.config_spider_class("common", BaseSpider)
-        self.process.config_spider_class("test", TestSpider)
         print '初始化爬虫进程'
 
     def start_craw(self, spider_key="", **settings):

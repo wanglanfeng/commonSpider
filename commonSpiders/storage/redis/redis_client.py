@@ -29,7 +29,7 @@ class RedisClient(object):
         config = get_redis_config(db)
         host = self.host or config['host']
         port = self.port or config['port']
-        password = self.pwd or db['pwd']
+        password = self.pwd or config['pwd']
         r = self.redis_clients.get(db, None)
         if not r:
             if pool_use:

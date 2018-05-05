@@ -5,7 +5,6 @@
  @File    : socketio_client_namespace.py
  @desc    :
 '''
-import time
 
 from socketIO_client import BaseNamespace
 
@@ -14,49 +13,71 @@ class ClientBaseNamespace(BaseNamespace):
 
     KEY = '/base'
 
+    REGISTER = False
+
     def __init__(self, io, path):
         super(ClientBaseNamespace, self).__init__(io, path)
         self.extend_context = self.__dict__['_io'].__dict__['extend_context']
 
 
-class HeartNamspace(ClientBaseNamespace):
-
+class CrawlerProcessNamespace(BaseNamespace):
     '''
-    心跳
+    用于主动向服务端注册爬虫管理器
     '''
-    KEY = '/heart'
-
-    DEFAULT_INTERVAL = 5
+    KEY = '/crawler_process'
 
     def on_connect(self):
-        print '连接'
-        self._ping()
-
-    def on_disconnect(self):
-        self._ping()
+        '''
+        连接服务器需要注册
+        :return:
+        '''
+        print('客户端连接')
+        self.register_crawler_process()
 
     def on_reconnect(self):
-        self._ping()
+        '''
+        重连成功也需要注册
+        :return:
+        '''
+        self.register_crawler_process()
 
-    def on_ping(self, data):
-        self._pong(data)
+    def on_disconnect(self):
+        '''
+        断开连接需要登出
+        :return:
+        '''
+        self.logout_crawler_process()
 
-    def on_pong(self, data):
-        print('客户端心跳响应')
-        self._ping(data)
+    def on_register_success(self, data):
 
-    def _ping(self, data=None):
-        time.sleep(self.DEFAULT_INTERVAL)
-        self.emit('ping', {'aa': 1})
+        print('注册成功')
 
-    def _pong(self, data=None):
-        self.emit('pong', {'aa': 1})
+    def on_logout_success(self, data):
+
+        print('登出成功')
+
+    def register_crawler_process(self):
+        '''
+        注册爬虫管理器
+        :return:
+        '''
+        self.emit('register', {})
+
+    def logout_crawler_process(self):
+        '''
+        注销爬虫管理器
+        :return:
+        '''
+        self.emit('logout', {})
 
 
-class CmdNamespace(BaseNamespace):
-
+class ServerInfoNamespace(BaseNamespace):
     '''
-
+    用于主动向服务器发送系统运行情况
     '''
-    def on_cmd(self, data):
-        pass
+    KEY = '/server_info'
+
+    DEFAULT_INTREVAL = 20
+
+    def on_test(self, data):
+        print('测试')
