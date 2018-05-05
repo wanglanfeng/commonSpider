@@ -5,8 +5,6 @@ from sqlalchemy.orm import sessionmaker
 from commonSpiders.storage.mysql.settings import db
 
 
-
-
 class SqlSession(object):
     '''
     获取mysql的session

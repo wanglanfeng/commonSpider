@@ -10,7 +10,7 @@
 db = {
     'ip': 'localhost',
     'port': '3306',
-    'dbname': 'db',
+    'dbname': 'scrapycluster',
     'uname': 'root',
     'pwd': '12345678',
     'encoding': 'utf-8',
