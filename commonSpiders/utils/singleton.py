@@ -3,10 +3,11 @@
 '''
  @Time    : 2018/4/14 23:35
  @File    : singleton.py
- @desc    :
+ @desc    : 单例模型
 '''
 from functools import wraps
 
+# 单例存放位置
 instances = {}
 
 

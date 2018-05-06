@@ -22,7 +22,7 @@ class CustomCrawlerProcess(CrawlerProcess):
     爬虫调度器进程
     '''
 
-    def __init__(self, settings=None, install_root_handler=True, spiders_list=[], net=None):
+    def __init__(self, settings=None, install_root_handler=True, spiders_list=[], guid=None):
         super(CustomCrawlerProcess, self).__init__(settings, install_root_handler)
         # 存储原始配置
         self.source_settings = {}
@@ -32,7 +32,7 @@ class CustomCrawlerProcess(CrawlerProcess):
             settings = get_project_settings().copy_to_dict()
         self.source_settings.update(settings)
 
-        self._guid = guid_generate()
+        self.guid = guid
 
         # 存储当前可用的所有爬虫
         spiders_list = list(set(spiders_list))
@@ -43,22 +43,6 @@ class CustomCrawlerProcess(CrawlerProcess):
 
         # 存储每个爬虫对应的个性化配置
         self.spider_settings = {}
-
-        # 增加爬虫网络通信对象
-        if net and not isinstance(net, CrawlerProcessNetInter):
-            raise Exception('网络通信接口类型不正确，请接入正确的网络通信接口')
-        self.net = net or CrawlerProcessNetInter()
-
-    def set_net(self, net):
-        self.net = net
-
-    @property
-    def guid(self):
-        self._guid
-
-    @guid.setter
-    def guid(self, value):
-        return
 
     def _create_crawler(self, spidercls):
         if isinstance(spidercls, six.string_types):

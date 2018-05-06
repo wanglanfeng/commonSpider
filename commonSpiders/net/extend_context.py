@@ -25,6 +25,7 @@ class ContextExtend(object):
         self.priority = priority or self.DEFUALT_PRIORITY
         self.async = async
         self.start_func = func
+        self.app = None
 
     def start(self, func=None):
         start_func = func or self.start_func or (self.obj and getattr(self.obj, self.DEFAULT_START_FUNC, None))

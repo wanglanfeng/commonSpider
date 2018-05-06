@@ -5,8 +5,11 @@
  @File    : socketio_client_namespace.py
  @desc    :
 '''
+import time
 
 from socketIO_client import BaseNamespace
+
+from commonSpiders.creeper.manager.manager import KEY
 
 
 def get_extend_context(namespace):
@@ -36,7 +39,14 @@ class CrawlerProcessNamespace(BaseNamespace):
         :return:
         '''
         print('客户端连接成功')
-        self.register_crawler_process()
+        manager = get_extend_context(self).get(KEY, None)
+        while manager.INIT_CRAWLER_PROCESS_FLAG:
+            time.sleep(2)
+            process_dict = manager.process_dict
+            process_info_list = [{
+                'guid': key
+            } for key, process in process_dict.items()]
+            self.register_crawler_process(process_info_list)
 
     def on_reconnect(self):
         '''
@@ -58,12 +68,12 @@ class CrawlerProcessNamespace(BaseNamespace):
     def on_logout_success(self, data):
         print('登出成功')
 
-    def register_crawler_process(self):
+    def register_crawler_process(self, data):
         '''
         注册爬虫管理器
         :return:
         '''
-        self.emit('register', {})
+        self.emit('register', data)
 
     def logout_crawler_process(self):
         '''

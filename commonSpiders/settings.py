@@ -13,6 +13,9 @@ BOT_NAME = 'commonSpiders'
 
 SPIDER_MODULES = ['commonSpiders.creeper.spiders']
 
+# 爬虫进程名
+CRAWLER_PROCEESS = ['crawler-process']
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'commonSpiders (+http://www.yourdomain.com)'
