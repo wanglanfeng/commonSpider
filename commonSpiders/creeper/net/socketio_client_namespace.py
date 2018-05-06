@@ -9,15 +9,19 @@
 from socketIO_client import BaseNamespace
 
 
-class ClientBaseNamespace(BaseNamespace):
+def get_extend_context(namespace):
+    '''
+    获取命名空间的扩展对象
+    :param namespace:
+    :return:
+    '''
+    return namespace.__dict__['_io'].__dict__['extend_context'] if namespace and isinstance(namespace, BaseNamespace) else {}
 
+
+class ClientBaseNamespace(BaseNamespace):
     KEY = '/base'
 
     REGISTER = False
-
-    def __init__(self, io, path):
-        super(ClientBaseNamespace, self).__init__(io, path)
-        self.extend_context = self.__dict__['_io'].__dict__['extend_context']
 
 
 class CrawlerProcessNamespace(BaseNamespace):
@@ -31,7 +35,7 @@ class CrawlerProcessNamespace(BaseNamespace):
         连接服务器需要注册
         :return:
         '''
-        print('客户端连接')
+        print('客户端连接成功')
         self.register_crawler_process()
 
     def on_reconnect(self):
@@ -49,11 +53,9 @@ class CrawlerProcessNamespace(BaseNamespace):
         self.logout_crawler_process()
 
     def on_register_success(self, data):
-
         print('注册成功')
 
     def on_logout_success(self, data):
-
         print('登出成功')
 
     def register_crawler_process(self):

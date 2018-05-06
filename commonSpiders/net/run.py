@@ -34,8 +34,8 @@ class Run(object):
                     self.context_dict['before'].append(context)
                 else:
                     self.context_dict['after'].append(context)
-        self.context_dict['before'] = sorted(self.context_dict['before'], cmp=lambda context: context.priority)
-        self.context_dict['after'] = sorted(self.context_dict['after'], cmp=lambda context: context.priority)
+        self.context_dict['before'] = sorted(self.context_dict['before'], key=lambda context: context.priority)
+        self.context_dict['after'] = sorted(self.context_dict['after'], key=lambda context: context.priority)
 
     def _before_context_init(self):
 

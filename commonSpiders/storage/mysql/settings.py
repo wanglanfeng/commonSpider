@@ -14,5 +14,5 @@ db = {
     'uname': 'root',
     'pwd': '12345678',
     'encoding': 'utf-8',
-    'echo': False
+    'echo': True
 }

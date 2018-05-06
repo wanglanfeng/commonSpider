@@ -12,6 +12,7 @@ from flask_socketio import Namespace
 class ServerBaseNamespace(Namespace):
     '''
     基础类
+    扩展调用方式 self.extend_context.service（key为service的环境扩展）
     '''
     KEY = '/base'
 

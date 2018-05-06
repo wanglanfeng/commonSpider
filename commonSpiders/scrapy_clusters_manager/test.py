@@ -5,7 +5,7 @@
  @File    : test.py
  @desc    :
 '''
-from commonSpiders.scrapy_clusters_manager.scapyinfo.crawler_process_info import CrawlerProcessInfo
+from commonSpiders.scrapy_clusters_manager.redis_model.crawler_process_info import CrawlerProcessInfo
 
 if __name__ == '__main__':
     aa = CrawlerProcessInfo()

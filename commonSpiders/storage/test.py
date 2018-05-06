@@ -8,7 +8,9 @@
 from mongoengine import StringField
 from mongoengine.base import BaseDocument
 
+from commonSpiders.scrapy_clusters_manager.mysql.models import CrawlerProcessInfo
 from commonSpiders.storage.mongodb.mongo_client import MongoDbClient
+from commonSpiders.storage.mysql.sqlalchemy_engine import SqlSession
 
 
 class Test(BaseDocument):
@@ -22,8 +24,12 @@ class Test(BaseDocument):
 
 
 if __name__ == '__main__':
-    MongoDbClient()
+    # MongoDbClient()
+    # print(1)
+    # Test.objects
+    sqlSession = SqlSession()
+    session = sqlSession.get_sql_session()
+    # session.query(CrawlerProcessInfo)
     print(1)
-    Test.objects
 
 

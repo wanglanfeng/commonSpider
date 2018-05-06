@@ -13,7 +13,6 @@ from scrapy.utils.project import get_project_settings
 from twisted.internet import defer
 
 from commonSpiders.creeper.net.crawlerprocess_net import CrawlerProcessNetInter
-from commonSpiders.scrapy_clusters_manager.crawler_info_manager.crawlerjobinfo_manager import CrawlerJobInfoManager
 from commonSpiders.creeper.crawlers.crawlers import CustomeCrawler
 from commonSpiders.creeper.utils.utils import guid_generate
 
@@ -45,13 +44,13 @@ class CustomCrawlerProcess(CrawlerProcess):
         # 存储每个爬虫对应的个性化配置
         self.spider_settings = {}
 
-        # 爬虫工作者状态管理器
-        self.crawler_manager = CrawlerJobInfoManager()
-
         # 增加爬虫网络通信对象
         if net and not isinstance(net, CrawlerProcessNetInter):
             raise Exception('网络通信接口类型不正确，请接入正确的网络通信接口')
         self.net = net or CrawlerProcessNetInter()
+
+    def set_net(self, net):
+        self.net = net
 
     @property
     def guid(self):

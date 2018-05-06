@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import redis
 
-from commonSpiders.creeper.utils.singleton import singleton
+from commonSpiders.utils.singleton import singleton
 from commonSpiders.storage.redis.settings import get_redis_config
 
 
