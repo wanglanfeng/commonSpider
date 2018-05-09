@@ -8,6 +8,8 @@
 from flask import current_app
 from flask_socketio import Namespace
 
+from commonSpiders.global_context_manager.context_manager import ContextManagerBuild
+
 
 class ServerBaseNamespace(Namespace):
     '''
@@ -28,15 +30,18 @@ class CrawlerProcessNamespace(ServerBaseNamespace):
     '''
 
     KEY = '/crawler_process'
+    context = {}
 
     def on_connect(self):
+        self.socketio.emit('logout_success', {'fasd':1}, namespace=self.namespace)
         print('服务端连接')
 
     def on_reconnect(self):
         pass
 
     def on_disconnect(self):
-        self.emit('logout_success', {})
+        self.socketio.emit('logout_success', {},namespace=self.namespace)
+        pass
 
     def on_register(self, data):
         '''
@@ -47,8 +52,9 @@ class CrawlerProcessNamespace(ServerBaseNamespace):
         2 获取爬虫管理器状态
         3
         '''
+        ContextManagerBuild.update_context(data)
         print('注册')
-        self.emit('register_success', {'msg': 1})
+        self.socketio.emit('register_success', {'msg': 1},namespace=self.namespace)
 
     def on_logout(self, data):
         '''
@@ -58,6 +64,8 @@ class CrawlerProcessNamespace(ServerBaseNamespace):
         1 消除爬虫管理器的信息
         2 消除爬虫管理器下所有工作者信息
         '''
+        ContextManagerBuild.update_context(data)
+        print('注销')
         pass
 
     def on_register_crawler_job_info(self, data):

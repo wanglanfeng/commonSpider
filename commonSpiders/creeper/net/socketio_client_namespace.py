@@ -44,9 +44,11 @@ class CrawlerProcessNamespace(BaseNamespace):
             time.sleep(2)
             process_dict = manager.process_dict
             process_info_list = [{
-                'guid': key
+                'mac': manager.mac,
+                'process_guid': key
             } for key, process in process_dict.items()]
             self.register_crawler_process(process_info_list)
+            break
 
     def on_reconnect(self):
         '''
@@ -67,6 +69,7 @@ class CrawlerProcessNamespace(BaseNamespace):
 
     def on_logout_success(self, data):
         print('登出成功')
+        self.emit('logout', {'fsd': 1})
 
     def register_crawler_process(self, data):
         '''

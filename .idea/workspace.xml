@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="608ad018-f05e-409b-a801-0007cfcecb14" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/commonSpiders/global_context_manager/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonSpiders/global_context_manager/context_manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/manager/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/manager/manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/net/crawler_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/crawler_run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_client_namespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_client_namespace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/net/extend_context.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/net/extend_context.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/utils/decorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/utils/decorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/utils/server_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/utils/server_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/utils/singleton.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/utils/singleton.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonSpiders/utils/utils_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/utils/utils_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py" beforeDir="false" afterPath="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,9 +18,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/commonSpiders$cmd.coverage" NAME="cmd Coverage Results" MODIFIED="1525603752417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/storage/mysql" />
-    <SUITE FILE_PATH="coverage/commonSpiders$run.coverage" NAME="run Coverage Results" MODIFIED="1525617633015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager" />
+    <SUITE FILE_PATH="coverage/commonSpiders$run.coverage" NAME="run Coverage Results" MODIFIED="1525875579461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/creeper" />
     <SUITE FILE_PATH="coverage/commonSpiders$socketio_server.coverage" NAME="socketio_server Coverage Results" MODIFIED="1524295511887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/flask_web" />
-    <SUITE FILE_PATH="coverage/commonSpiders$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1525617640729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/creeper" />
+    <SUITE FILE_PATH="coverage/commonSpiders$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1525875576508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager" />
     <SUITE FILE_PATH="coverage/commonSpiders$Unittests_for_utils_test_MyTestCase_test_get_mac_address.coverage" NAME="Unittests for utils_test.MyTestCase.test_get_mac_address Coverage Results" MODIFIED="1525568829844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/utils" />
     <SUITE FILE_PATH="coverage/commonSpiders$TestSpider.coverage" NAME="TestSpider Coverage Results" MODIFIED="1523792573427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/spiders_test" />
     <SUITE FILE_PATH="coverage/commonSpiders$models.coverage" NAME="models Coverage Results" MODIFIED="1525536411835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/mysql" />
@@ -47,23 +42,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/manager/manager.py">
+      <file leaf-file-name="socketio_server_namespace.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="25" />
+            <state relative-caret-position="252">
+              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
               <folding>
-                <element signature="e#118#133#0" expanded="true" />
+                <element signature="e#135#164#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socketio_client_namespace.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="context_manager.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/commonSpiders/global_context_manager/context_manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socketio_client_namespace.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/socketio_client_namespace.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="75" column="27" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
               <folding>
                 <element signature="e#135#146#0" expanded="true" />
               </folding>
@@ -79,8 +83,8 @@
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
-        <option value="Python Script" />
         <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -132,10 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/run.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/context_extend.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/creeper/net/crawlerprocess_net.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/net/message/socketio_msg.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/net/msg.py" />
         <option value="$PROJECT_DIR$/commonSpiders/net/server/flask/server.py" />
         <option value="$PROJECT_DIR$/commonSpiders/storage/redis/redis_client.py" />
@@ -165,7 +165,6 @@
         <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/mysql/service.py" />
         <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/context_extend.py" />
         <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/service/service.py" />
-        <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py" />
         <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/run.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/loader/loader.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/manager/loader.py" />
@@ -182,7 +181,12 @@
         <option value="$PROJECT_DIR$/commonSpiders/net/extend_context.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/net/crawler_run.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/manager/manager.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/creeper/global/context.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/global/context.py" />
         <option value="$PROJECT_DIR$/commonSpiders/creeper/net/socketio_client_namespace.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/global/context_manager.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/global_context_manager/context_manager.py" />
+        <option value="$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py" />
       </list>
     </option>
   </component>
@@ -199,8 +203,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="-135" />
+    <option name="y" value="26" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
@@ -227,33 +231,7 @@
               <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
               <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="creeper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="creeper" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy_clusters_manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonSpiders" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="commonSpiders" type="462c0819:PsiDirectoryNode" />
-              <item name="scrapy_clusters_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="redis_model" type="462c0819:PsiDirectoryNode" />
+              <item name="global_context_manager" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/spidersManager" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/monitor" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -286,9 +264,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\creeper" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\creeper\net" />
-      <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\scrapy_clusters_manager\redis_model" />
       <recent name="D:\pythonWorkSpace\commonSpiders\commonSpiders\utils" />
     </key>
@@ -312,46 +290,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run (1)">
-    <configuration name="cmd" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="commonSpiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/storage/mysql" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commonSpiders/storage/mysql/cmd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.run">
     <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="commonSpiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/creeper" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commonSpiders/creeper/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="commonSpiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -370,48 +310,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Unittests for utils_test.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="commonSpiders" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/utils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/creeper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;utils_test.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="Unittests for utils_test.MyTestCase.test_get_guid" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="commonSpiders" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/commonSpiders/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;utils_test.MyTestCase.test_get_guid&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commonSpiders/creeper/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
       <item itemvalue="Python.run" />
       <item itemvalue="Python.run (1)" />
-      <item itemvalue="Python.cmd" />
-      <item itemvalue="Python tests.Unittests for utils_test.MyTestCase" />
-      <item itemvalue="Python tests.Unittests for utils_test.MyTestCase.test_get_guid" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.run (1)" />
         <item itemvalue="Python.run" />
-        <item itemvalue="Python tests.Unittests for utils_test.MyTestCase.test_get_guid" />
-        <item itemvalue="Python tests.Unittests for utils_test.MyTestCase" />
-        <item itemvalue="Python.cmd" />
+        <item itemvalue="Python.run (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -483,49 +408,49 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32770744" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36005625" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.36708862" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49370277" visible="true" weight="0.22654155" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32911393" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27566808" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.36708862" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49370277" visible="true" weight="0.23592493" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.21983914" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2658228" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.42475387" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49370277" visible="true" weight="0.24128686" />
       <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" weight="0.21983914" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286517" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32911393" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23628692" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.79310346" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.6666667" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32911393" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,6 +496,16 @@
           <line>753</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -579,79 +514,10 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="203" />
+      <option name="time" value="214" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/parses/item_parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="66" column="62" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/headers/cookies/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/logging/sys_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/redis_model/server_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/persistent_layer/mysql_persistent.py" />
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlers/crawlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/storage/mysql/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/storage/redis/redis_client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/crawler_info_manager/crawler_job.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-912">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="1067" selection-start-line="1067" selection-end-line="1067" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commonSpiders/cache/redis_data_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -742,13 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/context_extend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/context_extend.py" />
     <entry file="file://$PROJECT_DIR$/commonSpiders/net/client/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -767,13 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/utils/singleton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -812,40 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/utils/server_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#133#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/utils/utils_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commonSpiders/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-          <folding>
-            <element signature="e#133#143#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,20 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/service/service.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#120#178#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -877,26 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-81">
           <caret line="18" column="16" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#113#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="12" />
-          <folding>
-            <element signature="e#113#174#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -918,19 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#120#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/manager/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#118#133#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,12 +721,142 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/tomcat_monitor.py" />
+    <entry file="file://$PROJECT_DIR$/commonSpiders/net/server/flask/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/utils/server_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/utils/utils_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketIO_client/logs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketIO_client/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/flask_socketio/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569">
+          <caret line="333" column="8" selection-start-line="333" selection-start-column="8" selection-end-line="333" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketIO_client/namespaces.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketio/base_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="122" column="8" selection-start-line="122" selection-start-column="8" selection-end-line="122" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/flask_socketio/namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spider_env_2.7/Lib/site-packages/socketio/namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/utils/singleton.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/manager/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/crawlermanagers/custom_crawlerprocess.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1378783016/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="729" column="6" selection-start-line="729" selection-start-column="6" selection-end-line="729" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/commonSpiders/creeper/net/socketio_client_namespace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="75" column="27" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="27" />
+        <state relative-caret-position="285">
+          <caret line="66" column="40" lean-forward="true" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
           <folding>
             <element signature="e#135#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/global_context_manager/context_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commonSpiders/scrapy_clusters_manager/net/socketio_server_namespace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <element signature="e#135#164#0" expanded="true" />
           </folding>
         </state>
       </provider>

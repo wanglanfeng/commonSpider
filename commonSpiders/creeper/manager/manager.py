@@ -13,7 +13,7 @@ from scrapy.utils.project import get_project_settings
 from commonSpiders.creeper.crawlermanagers.custom_crawlerprocess import CustomCrawlerProcess
 from commonSpiders.creeper.spiders.commcon_spider import BaseSpider
 from commonSpiders.net.extend_context import ContextExtend
-from commonSpiders.utils.server_utils import get_guid_by_mac
+from commonSpiders.utils.server_utils import get_guid_by_mac, get_mac_address
 from commonSpiders.utils.singleton import singleton
 
 KEY = 'crawler_process_manager'
@@ -27,6 +27,7 @@ class CrawlerProcessManager(object):
 
     def __init__(self):
         self.settings = get_project_settings()
+        self.mac = get_mac_address()
         self.init_crawler_process_list = []
         self.init_crawler_process_list += self.settings.get('CRAWLER_PROCEESS', ['default'])
         self.process_dict = {}
